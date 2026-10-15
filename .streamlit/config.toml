@@ -1,0 +1,26 @@
+[theme]
+base = "dark"
+primaryColor = "#F43F5E"
+backgroundColor = "#0B0D12"
+secondaryBackgroundColor = "#161A23"
+textColor = "#E6E8EE"
+borderColor = "#262B36"
+linkColor = "#FB7185"
+codeTextColor = "#FDA4AF"
+codeBackgroundColor = "#1E2330"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 600]
+metricValueFontSize = "1.5rem"
+baseRadius = "medium"
+linkUnderline = false
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#11141B"
+secondaryBackgroundColor = "#1A1F2A"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
