@@ -1,9 +1,8 @@
-# askthevideo
+# AskTheVideo
 
 Paste a YouTube link and ask questions about the video. Answers come only from the transcript and cite timestamps you can click.
 
-![Home screen](assets/screenshots/home.png)
-![Chat with timestamp citations](assets/screenshots/chat.png)
+![AskTheVideo answering a question with clickable timestamp citations](assets/screenshots/chat.png)
 
 ## Features
 
@@ -57,8 +56,8 @@ flowchart LR
 Requires Python 3.12 (verified with 3.12.10).
 
 ```bash
-git clone https://github.com/Vikram739/askthevideo.git
-cd askthevideo
+git clone https://github.com/Vikram739/AskTheVideo.git
+cd AskTheVideo
 python -m venv .venv
 ```
 
@@ -135,7 +134,7 @@ The tests make no network calls. The RAG test uses LangChain's deterministic fak
 ## Project structure
 
 ```
-askthevideo/
+AskTheVideo/
 ├── app.py                  # Streamlit UI and session state
 ├── .streamlit/config.toml  # theme
 ├── askthevideo/
