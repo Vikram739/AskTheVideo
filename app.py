@@ -155,8 +155,8 @@ def render_empty_state() -> None:
             st.caption(text)
 
 
-st.set_page_config(page_title="askthevideo", page_icon=":material/smart_display:")
-st.title("askthevideo")
+st.set_page_config(page_title="AskTheVideo", page_icon=":material/smart_display:")
+st.title("AskTheVideo")
 st.caption("Ask questions about any YouTube video. Answers cite timestamps you can click.")
 
 try:
